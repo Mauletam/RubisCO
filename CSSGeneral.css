@@ -183,6 +183,11 @@ body {
 	background-color: #ABE9DD;
 }
 
+header {
+	width: 100%;
+	position: fixed;
+}
+
 p {
     position: absolute;
     text-align: justify;
