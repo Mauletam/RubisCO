@@ -184,8 +184,12 @@ body {
 }
 
 header {
-	width: 100%;
-	position: fixed;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #107999
+    top: 20px;
+    height: 15%
 }
 
 p {
@@ -266,7 +270,6 @@ div.cajaMeto {
 }
 
 .navBar {
-    position: relative; 
     width:  100%;
     background: #107999;
     font-size: 30px;
@@ -274,8 +277,6 @@ div.cajaMeto {
     font-weight: 500;
     font-style: normal; 
     text-align: center;
-    height: 10%;
-    top: 20px;
     width: 100%;
 }
 
@@ -286,18 +287,20 @@ div.cajaMeto {
     display: block;
     text-decoration: none;
     width: 100%;
-    top: 30%;
+    top: 10%;
+    position: relative;
 }
 
 .navMenu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .navMenu li {
     position: relative;
+
 }
 
 .navMenu a:hover {
