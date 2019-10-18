@@ -6,6 +6,10 @@
 	color: #ABBA3E;
 }
 
+.azulTurqui{
+    color: #20214f;
+}
+
 .azulMarino {
 	color: #107999;
 }
@@ -208,8 +212,18 @@ h1.meto{
 	font-family: 'Gotham';
 	font-weight: 500;
     font-style: normal;	
-    font-size: 40px;
+    font-size: 50px;
     color: #107999;
+}
+
+h1.metoBlanco{
+    position: absolute;
+    text-align: center;
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 50px;
+    color: #FFFFFF;
 }
 
 h2.meto{
