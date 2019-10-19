@@ -184,6 +184,7 @@
 
 
 body {
+    margin: 0;
 	background-color: #ABE9DD;
 }
 
@@ -233,6 +234,7 @@ h2.meto{
 	font-weight: 500;
     font-style: normal;	
     color: #107999;
+    font-size: 30px;
 }
 
 h3.meto{
@@ -242,6 +244,17 @@ h3.meto{
 	font-weight: 500;
     font-style: normal;	
     color: #107999;
+    font-size: 20px;
+}
+
+h3.metoTitu{
+    position: absolute;
+    text-align: center;
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-style: normal; 
+    color: #ABBA3E;
+    font-size: 20px;
 }
 
 h4.meto{
@@ -405,4 +418,52 @@ progress:after {
     display: inline-block;
     float: left;
     content: attr(value) '%';
+}
+
+/* Pop-Up */
+@charset "utf-8";
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+#popupBody{
+    width: 60%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #CCC;
+    background: #FFF;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin: 5% auto;
+}
+p.popUpCONTENT{
+    color: black;
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+#cerrar{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #107999;
 }
