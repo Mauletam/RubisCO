@@ -211,9 +211,48 @@
     </div>
 
 <!--MAPA AMG-->
-  <div  id="mapa" style="top: 818%; position: absolute;"></div>
   <h1 class="metoBlanco" style="top: 822%; left: 42.5%;">GMA Map</h1>
-  <div class="cajaMeto" style="top: 840%; width: 70%; left: 15%; height: 70%;"></div>
+  <div>
+    <div id="1" style="opacity: 1">
+      <img src="Jal.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 47%">JALISCO</h3>
+    </div>
+    <div id="2" style="opacity: 0">
+      <img src="AMG.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 49%">GMA</h3>
+    </div>
+    <div id="3" style="opacity: 0">
+      <img src="PAC.jpg" style="opacity: 0;top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 40%">POLLUTING AIR COMPANIES</h3>
+    </div>
+    <div id="4" style="opacity: 0">
+      <img src="WWD.jpg" style="opacity: 0;top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 40%">WASTEWATER DISCHARGES</h3>
+    </div>
+    <div id="5" style="opacity: 0">
+      <img src="QAS.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 42%">QUALITY AIR STATIONS</h3>
+    </div>
+    <div id="6" style="opacity: 0">
+      <img src="MRofQAS.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 40%">MONITORING RADIO OF QAS</h3>
+    </div>
+    <div id="7" style="opacity: 0">
+      <img src="NL.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 45%">NUEVO LEON</h3>
+    </div>
+    <div id="8" style="opacity: 0">
+      <img src="PPP.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 38%">PULP, PAPER AND PAPERBOARD MILLS</h3>
+    </div>
+    <div id="9" style="opacity: 0">
+      <img src="Basins.jpg" style="top: 840%;width: 70%">
+      <h3 class="metoTitu" style="top: 912%;left: 48%">BASINS</h3>
+    </div>
+  </div>
+
+  <button onclick="plus(-1)" class="disminuir" style="position: absolute;top: 875.5%; left: 10%"></button>
+  <button onclick="plus(1)" class="incrementar" style="position: absolute;top: 875.5%; left: 90%"></button>
 
  <!--Battlegrounds-->
  <h1 class="metoBlanco" style="top: 920%; left: 27.5%;" id="docu">"From our battlegrounds"</h1>
@@ -224,8 +263,124 @@
   <br>
   <br>
   <div></div>
-  <!--seguimos haciendo del video-->
+  
+  <script type="text/javascript">
+      var x=1;
+      function plus(n) {
+        x += n;
+        if (x==0) {
+          x=9;
+        }
+        else if (x==10) {
+          x=1;
+        }
+        var y = x;
+        Mas(y);
+      }
+      function Mas(y) {
+        if (y==1){
+          document.getElementById('1').style.opacity=1;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==2){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=1;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==3){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=1;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==4){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=1;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==5){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=1;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==6){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=1;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==7){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=1;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==8){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=1;
+          document.getElementById('9').style.opacity=0;
+        }
+        if (y==9){
+          document.getElementById('1').style.opacity=0;
+          document.getElementById('2').style.opacity=0;
+          document.getElementById('3').style.opacity=0;
+          document.getElementById('4').style.opacity=0;
+          document.getElementById('5').style.opacity=0;
+          document.getElementById('6').style.opacity=0;
+          document.getElementById('7').style.opacity=0;
+          document.getElementById('8').style.opacity=0;
+          document.getElementById('9').style.opacity=1;
+        }
+      }
+    </script>
 
   </body>
 </html>
+
 
