@@ -204,7 +204,7 @@ p {
     font-weight: 500;
     font-style: normal; 
     color: #107999;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 h1.meto{
@@ -213,7 +213,7 @@ h1.meto{
 	font-family: 'Gotham';
 	font-weight: 500;
     font-style: normal;	
-    font-size: 50px;
+    font-size: 3.125em;
     color: #107999;
 }
 
@@ -223,7 +223,7 @@ h1.metoBlanco{
     font-family: 'Gotham';
     font-weight: 500;
     font-style: normal; 
-    font-size: 50px;
+    font-size: 3.125em;
     color: #FFFFFF;
 }
 
@@ -234,7 +234,7 @@ h2.meto{
 	font-weight: 500;
     font-style: normal;	
     color: #107999;
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 h3.meto{
@@ -244,7 +244,7 @@ h3.meto{
 	font-weight: 500;
     font-style: normal;	
     color: #107999;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 h3.metoTitu{
@@ -254,7 +254,7 @@ h3.metoTitu{
     font-weight: 500;
     font-style: normal; 
     color: #ABBA3E;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 h4.meto{
@@ -281,7 +281,7 @@ div.cajaMeto {
     font-style: normal;	
     color: white;
     width: 43%;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .botonMeto {
@@ -299,7 +299,7 @@ div.cajaMeto {
 .navBar {
     width:  100%;
     background: #107999;
-    font-size: 30px;
+    font-size: 1.875em;
     font-family: 'Gotham';
     font-weight: 500;
     font-style: normal; 
@@ -360,7 +360,7 @@ div.cajaMeto {
     min-width: 150px;
     border-radius: 0 0 .5em .5em;
     z-index: 9999999;
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: 'Gotham';
     font-weight: 300;
     font-style: normal;
@@ -377,47 +377,6 @@ div.cajaMeto {
     font-family: 'Gotham';
     font-weight: 500;
     font-style: normal; 
-}
-
-progress {
-    position: relative;
-    display: inline-block;
-    font-family: 'Gotham';
-    font-weight: 300;
-    font-style: normal;
-    width: 100%;
-    height: 20px;
-    padding: 15px 0 0 0;
-    margin: 0;
-    border: 0;
-    border-radius: 15px;
-    text-align: left;
-    font-size: 0.8em;
-}
-
-progress::-webkit-progress-bar {
-    height: 11px;
-    width: 90%;
-    margin: 0;
-    background-color: #CCC;
-    border-radius: 15px;
-}
-
-progress::-webkit-progress-value {
-    display: inline-block;
-    float: left;
-    height: 11px;
-    margin: 0 -10px 0 0;
-    background: #F10;
-    border-radius: 15px;
-}
-
-progress:after {
-    margin: -26px 0 0 -7px;
-    padding: 0;
-    display: inline-block;
-    float: left;
-    content: attr(value) '%';
 }
 
 /* Pop-Up */
@@ -466,4 +425,24 @@ p.popUpCONTENT{
     font-weight: bold;
     text-decoration: none;
     color: #107999;
+}
+
+.incrementar {
+  width: 0; 
+  height: 0; 
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+  border-left: 2em solid #107999;
+  border-right: 0;
+  background-color: #ABE9DD;
+}
+
+.disminuir {
+  width: 0; 
+  height: 0; 
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+  border-right: 2em solid #107999;
+  border-left: 0;
+  background-color: #ABE9DD;
 }
