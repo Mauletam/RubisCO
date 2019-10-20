@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="CSSGeneral.css">
+    <title>Team:RubisCO - 2019.igem.org</title>
+  </head>
+  <body>
+  <!--Menú igem-->
+
+  <!--navBarRubisco-->
+     <header>
+      <div class="navBar">
+          <ul class="navMenu">
+          <img src="arribota.png" style="position: relative; height: 45%; left: -10%; top: 2px">
+            <li>
+              <a href="project">Project</a>
+              <ul>
+                <li>
+                  <a href="design">Design</a>
+                </li>
+                <li>
+                  <a href="results">Results</a>
+                </li>
+                <li>
+                  <a href="proof">Proof</a>
+                </li>
+                <li>
+                  <a href="basic parts">Basic parts</a>
+                </li>
+                <li>
+                  <a href="composite parts">Composite parts</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="parts">Parts</a>
+            </li>
+            <li>
+              <a href="Human">Human</a>
+            </li>
+            <li>
+              <a href="Results">Results</a>
+            </li>
+            <li>
+              <a href="Team">Team</a>
+            </li>
+          </ul>
+      </div>
+    </header>
+
+    <h1 class="meto" style="top: 115.2px; left: 3%;"> Basic Parts </h1>
+    <h2 class="meto" style="top: 268.8px; left: 20%;"> Best basic parts – psbAI promoters (tertiary headers) </h2>
+    <h3 class="meto" style="top: 345.6px; left: 22%; text-align: justify; width: 57%;"> For this Project, the promoters were considered as the best or the most important basic parts. For the expression of RubisCO’s genetic circuits the constitutive psbA promoters were chosen because of their light responsive properties and their strength of expression in Synechococcus sp. </h3>
+
+    <h3 class="meto" style="top: 652.8px; left: 22%; text-align: justify; width: 57%;"> These promoter’s expression can be induced rapidly at different wavelengths and intensities, which facilitates the control of the gene expression without the need for the addition of any inducer to the culture media, instead, the regulation is carried out by a physical stimulus. Following this logic, we designed two modules for a two-stage culture strategy: in the first one, biomass carbon uptake is increased and once the nitrogen source is depleted from the culture media and stress responses from the cyanobacteria are activated, free fatty acids biosynthesis is induced. </h3>
+
+    <h3 class="meto" style="top: 1036.8px; left: 22%; text-align: justify; width: 25%;"> Phase 1: psbAI promoter (Tertiary header) </h3>
+    <h3 class="meto" style="top: 1113.6px; left: 22%; text-align: justify; width: 25%;"> The transcripts from psbAI promoter originate under low light intensity conditions (125 mol photons m-2 s-1). The carbon fixation and biomass production phase are under the control of this promoter (BBa_K754000). </h3>  
+
+    <h3 class="meto" style="top: 1382.4px; left: 22%; text-align: justify; width: 57%;"> Phase 2: psbAII/psbAIII promoter (Tertiary header) </h3>
+    <h3 class="meto" style="top: 1459.2px; left: 22%; text-align: justify; width: 57%;"> The expossure of the cells at high light conditions (750 µmol photons m-2 s-1) decreases the psbAI promoter strength while the expression of the genes regulated by the promoters psbAII and psbAIII increases. Also, it has been shown that low blue light conditions activate the psbAII and psbAIII promoters [1]. </h3>
+
+    <h3 class="meto" style="top: 1689.6px; left: 22%; text-align: justify; width: 57%;"> For this reason, we designed a hybrid psbAII/III promoter that allows a high transcription rate under high blue light intensity to increase the FFAs production after an increased carbon uptake by the cells. <br><br> These designs allow to regulate the expression of our gene circuits with an easy and effective mechanism. <br><br> [1] Mulo, P., Sicora, C., & Mari, E. (2009). Cyanobacterial psbA gene family: optimization of oxygenic photosynthesis. Cellular and Molecular Life Sciences, 66, 3697-3 </h3>  
+
+    <h2 class="meto" style="top: 1996.8px; left: 20%;"> COMPOSITE PART </h2>
+    <h3 class="meto" style="top: 2073.6px; left: 20%; text-align: justify; width: 57%;"> RubisCO’s project composite part for phase 1. <br><br> The best composite part: the CA-RubisCO construct, was designed for the overexpression of the extracellular carbonic anhydrase (CA) with exportation sequences pilA1 (BBa_K125300). This singnaling sequence was attached to the N-terminus of the polypeptide (directly upstream of a protein-coding BioBrick part) it is secrete by the cell into the extracelullar environment, and the Ribulose-1,5-bisphosphate carboxylase/oxygenase (RubisCO) from Synechococcus elongatus PCC 7942 under control psbAI promoter (BBa_K754000).</h3> 
+
+    <h2 class="meto" style="top: 2380.8px; left: 20%;"> How does it work? </h2>
+    <h3 class="meto" style="top: 2430.72px; left: 20%; text-align: justify; width: 57%;"> Best Composite Part – Ca- RubisCO construct <br><br><br> The natural ability of Synechococcus sp. To fix CO2 through photosynthesis, was redesigned through metabolic engineering to synthetize free fatty acids (FFAs). In adittion, the natural carbonic anhydrase has been engineered for increased a higher activity for CO2 hydration in comparison to a putative CA [1] [2]. </h3> 
+
+    <h3 class="meto" style="top: 2688px; left: 20%; text-align: justify; width: 57%;"> It has been shown that the expression of CA in high CO2 conditions inhibits the accumulation of inorganic carbon, causing a 152-fold increase in the apparent Km for CO2 in RubisCO. CA must be localized in the carboxysome where diffusion of CO2 across the carboxysome is significantly slower than CO2 across the cellular membrane. This allows for concentration of CO2 near RubisCO. Since RubisCO has low specificity to CO2, increasing accumulation of inorganic carbon by shifting pH can force selectivity or RubisCO toward CO2 (pH=7.5 highest carboxylation catalytic rate). HCO3- is two orders of magnitude more permeable across the carboxysome that the cellular membrane. This prompted genomic integration of genes cynT and can encoding Cas tagged with secretory signal PilA enables cells to secrete extracellular C. This enhances the hydration of dissolved CO2 to convert into HCO3- allowing for faster inorganic carbon diffusion into the cell [3]. <br><br> Moreover, the RubisCO overexpression leads to an increase on the photosynthetic activity and has been demonstrated that a higher carbon flux increases FFA production [4]. <br><br> [1] Chen , H. P., Liu, H. L., Chen, J. Y., Cheng, H. Y., Lin, L. W., Yeh, C. H., & Chang, H. C. (2012). Enhancing CO2 bio-mitigation by genetic engineering of cyanobacteria. Energy & Environmental Science, 5, 8318-8327.<br> [2] Zastrow, M. L., Peacock, A. F., Stuckey , J., & Pecoraro , V. L. (2011). Hydrolytic catalysis and structural stabilization in a designed metalloprotein. Nature Publishing Group, 4(2), 118-123.<br>[3] Zhang , A., Carroll, A., & Atsumi, S. (2017). Carbon recycling by cyanobacteria: improving CO2 fixation through chemical production. Microbiology letters, 364(16). <br>[4] Ruffing, A. M. (2014). Improved free fatty acid production in cyanobacteria with Synechococcus sp. PCC 7002 as host. Frontiers in Bioenfinering and biotechnology , 17(2), 1-10.</h3>
+
+</body>
+</html>
