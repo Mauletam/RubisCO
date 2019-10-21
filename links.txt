@@ -1,6 +1,13 @@
 GENERAL
 https://2019.igem.org/wiki/images/7/7b/T--ITESO_Guadalajara--arribota.png
 
+HARDWARE
+https://2019.igem.org/wiki/images/f/fb/T--ITESO_Guadalajara--electrode1.png
+https://2019.igem.org/wiki/images/4/42/T--ITESO_Guadalajara--electrode2.png
+https://2019.igem.org/wiki/images/9/96/T--ITESO_Guadalajara--electrode3.png
+https://2019.igem.org/wiki/images/0/02/T--ITESO_Guadalajara--electrode4.png
+https://2019.igem.org/wiki/images/7/7c/T--ITESO_Guadalajara--electrode5.png
+
 HUMAN PRACTICES
 https://2019.igem.org/wiki/images/1/1c/T--ITESO_Guadalajara--Capitulo1.png
 https://2019.igem.org/wiki/images/3/3c/T--ITESO_Guadalajara--Capitulo2.png
