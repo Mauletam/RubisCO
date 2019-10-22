@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="CSSGeneral.css">
+    <title>Team:RubisCO - 2019.igem.org</title>
+  </head>
+  <body>
+  <!--Menú igem-->
+
+  <!--navBarRubisco-->
+     <header>
+      <div class="navBar">
+          <ul class="navMenu">
+          <img src="arribota.png" style="position: relative; height: 45%; left: -10%; top: 2px">
+            <li>
+              <a href="project">Project</a>
+              <ul>
+                <li>
+                  <a href="design">Design</a>
+                </li>
+                <li>
+                  <a href="results">Results</a>
+                </li>
+                <li>
+                  <a href="proof">Proof</a>
+                </li>
+                <li>
+                  <a href="basic parts">Basic parts</a>
+                </li>
+                <li>
+                  <a href="composite parts">Composite parts</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="parts">Parts</a>
+            </li>
+            <li>
+              <a href="Human">Human</a>
+            </li>
+            <li>
+              <a href="Results">Results</a>
+            </li>
+            <li>
+              <a href="Team">Team</a>
+            </li>
+          </ul>
+      </div>
+    </header>
+  <!--Composite Parts-->
+    <h1 class="meto" style="top: 15%; left: 5%;"> Composite Parts </h1>
+    <h2 class="meto" style="top: 30%; left:14%;">Best composite part</h2>
+    <div style="position: absolute; left: 14%;top: 35%; width: 70%;">
+      <p>A construct was designed for the overexpression of the extracellular carbonic anhydrase (CA) along with a secretion signal pilA1 (BBa_K125300). This singnaling sequence was attached to the N-terminus of the polypeptide (directly upstream of a protein-coding BioBrick part) which secretes the enzyme to the extracelullar environment, also, this construct codes for the Ribulose-1,5 bisphosphate carboxylase/oxygenase enzyme (RubisCO) from Synechococcus elongatus PCC 7942 under the control of the psbAI promoter (BBa_K754000).</p>
+    </div>
+
+  <!--Imagen-->
+    
+  <!--How does it work?-->  
+    <h2 class="meto" style="top: 100%; left:14%;">How does it work?</h2>
+    <h2 class="meto" style="top: 104%; left:14%;">Best composite part - Carbonic anhydrase - RubisCO construct</h2>
+     <div style="position: absolute; left: 14%;top: 111%; width: 70%;">
+      <p>The natural ability of Synechococcus sp. To fix CO2 through photosynthesis, was redesigned through metabolic engineering to synthetize free fatty acids (FFAs). In addition, the chosen carbonic anhydrase has been previously engineered for an increased CO2 hydration activity in comparison to a putative carbonic anhydrase [1] [2].</p>
+    </div>
+
+<!--Imagen-->
+    
+<!--Texto final-->
+    <div style="position: absolute; left: 14%;top: 181%; width: 70%;">
+      <p>It has been shown that the expression of the carbonic anhydrase under high CO2 concentrations inhibits the accumulation of inorganic carbon, causing a 152-fold increase in the apparent Km for CO2 of the RubisCO enzyme.<br><br>Moreover, the RubisCO overexpression leads to an increase on the photosynthetic activity and it has been previously demonstrated that a higher carbon flux increases FFA production [3].<br><br>[1] Chen , H. P., Liu, H. L., Chen, J. Y., Cheng, H. Y., Lin, L. W., Yeh, C. H., & Chang, H. C. (2012). Enhancing CO2 bio-mitigation by genetic engineering of cyanobacteria. Energy & Environmental Science, 5, 8318-8327.<br>[2] Zastrow, M. L., Peacock, A. F., Stuckey , J., & Pecoraro , V. L. (2011). Hydrolytic catalysis and structural stabilization in a designed metalloprotein. Nature Publishing Group, 4(2), 118-123.<br>[3] Ruffing, A. M. (2014). Improved free fatty acid production in cyanobacteria with Synechococcus sp. PCC 7002 as host. Frontiers in Bioenfinering and biotechnology , 17(2), 1-10.<br><br><br><br></p>
+  </body>
+  </html>
